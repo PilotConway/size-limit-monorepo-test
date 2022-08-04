@@ -1,0 +1,21 @@
+{
+  "name": "package1",
+  "version": "1.0.0",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn parcel build"
+  },
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^8.0.0",
+    "parcel": "^2.7.0",
+    "size-limit": "^8.0.0"
+  },
+  "size-limit": [
+    {
+      "path": "dist/index.js",
+      "limit": "50 B"
+    }
+  ]
+}

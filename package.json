@@ -1,0 +1,16 @@
+{
+  "name": "size-limit-monorepo-test",
+  "version": "1.0.0",
+  "repository": "https://github.com/PilotConway/size-limit-monorepo-test",
+  "author": "John Conway <john@johnconwayiv.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "build": "yarn workspaces run build"
+  }
+}
