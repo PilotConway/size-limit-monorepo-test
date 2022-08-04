@@ -12,5 +12,9 @@
   },
   "scripts": {
     "build": "yarn workspaces run build"
+  },
+  "engines": {
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.19.1"
   }
 }
